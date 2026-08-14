@@ -17,7 +17,7 @@ class Config:
     DEBUG = os.getenv("DEBUG", "False").lower() == "true"
     
     # Heroku app name
-    HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME", "")
+    HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME", "raytele-bot")
     
     # Validate configuration
     @classmethod
