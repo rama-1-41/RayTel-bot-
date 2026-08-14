@@ -1,18 +1,21 @@
 {
-  "name": "Android Telegram Bot",
-  "description": "Remote control your Android phone via Telegram",
+  "name": "RayTele Bot",
+  "description": "Remote control Android phone via Telegram",
   "keywords": ["telegram", "bot", "android", "remote"],
   "env": {
     "BOT_TOKEN": {
       "description": "Your Telegram Bot Token from @BotFather",
+      "value": "8783728855:AAEqqlCrnVjmhHo5OfMAimaBhp12yI6O9aQ",
       "required": true
     },
     "ADMIN_CHAT_ID": {
       "description": "Your Telegram User ID for authorization",
+      "value": "8698177089",
       "required": true
     },
     "HEROKU_APP_NAME": {
       "description": "Your Heroku app name",
+      "value": "raytele-bot",
       "required": true
     }
   },
