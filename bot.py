@@ -95,6 +95,6 @@ else:
     bot_app = init_bot()
     if bot_app:
         # Set webhook
-        webhook_url = f"https://{os.getenv('HEROKU_APP_NAME', 'localhost')}.herokuapp.com/webhook"
+        webhook_url = f"https://raytele-bot.herokuapp.com/webhook"
         bot_app.bot.set_webhook(url=webhook_url)
         logger.info(f"🔗 Webhook set to: {webhook_url}")
